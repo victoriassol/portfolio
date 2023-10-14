@@ -37,7 +37,7 @@ export default function Home() {
         <section className="">
           <div className="container mx-auto flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 text-center md:text-left">
-              <h1 className="text-4xl font-bold text-5xl">
+              <h1 className="font-bold text-5xl">
                 Victoria Sol Ecalle
               </h1>
               <p className="text-lg mt-4 font-jost">
@@ -51,7 +51,10 @@ export default function Home() {
         </section>
         <section className="py-20">
           <div className="flex gap-10">
+            <a target='_blank'
+            rel='noopener noreferrer' href="www.x.com">
             <FontAwesomeIcon icon={faReact} className="w-20 " />
+            </a>
             <FontAwesomeIcon className="w-20 " icon={faSquareJs} />
             <FontAwesomeIcon className="w-20 " icon={faNode} />
             <img
